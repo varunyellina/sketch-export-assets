@@ -22,9 +22,10 @@ The plugin assumes you design your android layouts in `mdpi` , which means `1px 
 
 ## Shortcuts
 
-* iOS Export: `cmd + shift + 1`
-* Android Export: `cmd + shift + 2`
-* Windows Export: `cmd + shift + 3`
+* iOS Export: `ctrl + cmd + i`
+* Android Export: `ctrl + cmd + a`
+* Windows Export: `ctrl + cmd + w`
+* 1x Export: `ctrl + cmd + 1`
 
 
 ## Credits
