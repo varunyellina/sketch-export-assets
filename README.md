@@ -24,6 +24,7 @@ The plugin assumes you design your android layouts in `mdpi` , which means `1px 
 
 * iOS Export: `ctrl + cmd + i`
 * Android Export: `ctrl + cmd + a`
+* Android MIPMAP Export: `ctrl + cmd + l`
 * Windows Export: `ctrl + cmd + w`
 * 1x Export: `ctrl + cmd + 1`
 

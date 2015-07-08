@@ -22,13 +22,19 @@
                 "script": "Export Android Assets.sketchscript"
             },
             {
-                "name": "3.Export WindowsPhone Assets",
+                "name": "3.Export Android MIPMAP Assets",
+                "identifier": "export-assets-android-mipmap",
+                "shortcut": "ctrl cmd l",
+                "script": "Export Android MIPMAP Assets.sketchscript"
+            },
+            {
+                "name": "4.Export WindowsPhone Assets",
                 "identifier": "export-assets-wp",
                 "shortcut": "ctrl cmd w",
                 "script": "Export WindowsPhone Assets.sketchscript"
             },
             {
-                "name": "4.Export 1x Assets",
+                "name": "5.Export 1x Assets",
                 "identifier": "export-assets-1x",
                 "shortcut": "ctrl cmd 1",
                 "script": "Export 1x Assets.sketchscript"
@@ -40,6 +46,7 @@
             [
                 "export-assets-ios",
                 "export-assets-android",
+                "export-assets-android-mipmap",
                 "export-assets-wp",
                 "export-assets-1x"
             ]
