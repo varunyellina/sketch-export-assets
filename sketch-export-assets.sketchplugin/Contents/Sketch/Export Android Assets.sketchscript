@@ -38,6 +38,36 @@ var onRun = function(context) {
                 //prefix: prefix,
                 suffix: '',
             },
+            {
+                folder: 'mipmap-mdpi',
+                scale: 1.0,
+                //prefix: prefix,
+                suffix: '',
+            },
+            {
+                folder: 'mipmap-hdpi',
+                scale: 1.5,
+                //prefix: prefix,
+                suffix: '',
+            },
+            {
+                folder: 'mipmap-xhdpi',
+                scale: 2.0,
+                //prefix: prefix,
+                suffix: '',
+            },
+            {
+                folder: 'mipmap-xxhdpi',
+                scale: 3.0,
+                //prefix: prefix,
+                suffix: '',
+            },
+            {
+                folder: 'mipmap-xxxhdpi',
+                scale: 4.0,
+                //prefix: prefix,
+                suffix: '',
+            },
         ]
     ;
 
