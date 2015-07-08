@@ -106,13 +106,13 @@ com.geertwille = {
             var fileName = '',
                 name     = this.factors[i].folder,
                 factor   = this.factors[i].scale,
-                prefix   = '',
+                // prefix   = '',
                 suffix   = '',
                 version  = undefined;
 
-            if (this.type == "android") {
-                prefix = this.factors[i].prefix;
-            }
+            // if (this.type == "android") {
+            //     prefix = this.factors[i].prefix;
+            // }
             suffix = this.factors[i].suffix;
 
             log("Processing " + this.type + " slices: " + sliceName + " " + name + " (" + factor + ")");
@@ -121,9 +121,9 @@ com.geertwille = {
 
             // If we place the assets in the res folder don't place it in an assets/android folder
             if (this.baseDir.indexOf('/res') > -1 && this.type == "android") {
-                fileName = this.baseDir + "/" + name + "/" + prefix + sliceName + suffix + ".png";
+                fileName = this.baseDir + "/" + name + "/" + sliceName + suffix + ".png";
             } else {
-                fileName = this.baseDir + "/assets/" + this.type + "/" + name + "/" + prefix+ sliceName + suffix + ".png";
+                fileName = this.baseDir + "/assets/" + this.type + "/" + name + "/" + sliceName + suffix + ".png";
             }
 
             var document = com.geertwille.document;
