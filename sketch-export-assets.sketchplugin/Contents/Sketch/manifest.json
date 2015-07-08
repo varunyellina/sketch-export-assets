@@ -10,21 +10,21 @@
     "commands":
         [
             {
-                "name": "Export iOS Assets",
+                "name": "1.Export iOS Assets",
                 "identifier": "export-assets-ios",
-                "shortcut": "ctrl alt shift 1",
+                "shortcut": "cmd shift 1",
                 "script": "Export iOS Assets.sketchscript"
             },
             {
-                "name": "Export Android Assets",
+                "name": "2.Export Android Assets",
                 "identifier": "export-assets-android",
-                "shortcut": "ctrl alt shift 2",
+                "shortcut": "cmd shift 2",
                 "script": "Export Android Assets.sketchscript"
             },
             {
-                "name": "Export WindowsPhone Assets",
+                "name": "3.Export WindowsPhone Assets",
                 "identifier": "export-assets-wp",
-                "shortcut": "ctrl alt shift 3",
+                "shortcut": "cmd shift 3",
                 "script": "Export WindowsPhone Assets.sketchscript"
             }
         ],
@@ -32,8 +32,8 @@
         {
             "items":
             [
-                "export-assets-android",
                 "export-assets-ios",
+                "export-assets-android",
                 "export-assets-wp"
             ]
         }
