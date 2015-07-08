@@ -12,26 +12,23 @@ Run following command after going to the sketch plugins folder:
 
 OR
 
-Just download this repository and extract it to the sketch plugins folder.
+Click on `Download ZIP` on the right and  extract it to the sketch plugins folder.
 
-Once cloning is done you'll find the plugin functions under the Plugins menu in Sketch.
+You'll find this plugin's functions under the Plugins menu in Sketch.
 
 ## Assumptions
 
-The plugin assumes you design your layouts in mdpi, which means 1px = 1dp
+The plugin assumes you design your android layouts in `mdpi` , which means `1px = 1dp`
 
 ## Shortcuts
 
-* iOS Export: cmd + shift + 1
-* Android Export: cmd + shift + 2
-* Windows Export: cmd + shift + 3
+* iOS Export: `cmd + shift + 1`
+* Android Export: `cmd + shift + 2`
+* Windows Export: `cmd + shift + 3`
 
 
 ## Credits
-This plugin is based on and modified to suit my needs. I've disabled the prefix prompt [zmaltaker's] version has since I name my layers manually. Also this plugin can
-
-1.[zmaltalker's] project [sketch-android-assets]
-2.[GeertWille's] project [sketch-export-assets]
+This plugin is a modified version of [GeertWille's] project [sketch-export-assets] which was originally an extension of [zmaltalker's] project [sketch-android-assets]
 
 
 [sketch-android-assets]:https://github.com/zmalltalker/sketch-android-assets
