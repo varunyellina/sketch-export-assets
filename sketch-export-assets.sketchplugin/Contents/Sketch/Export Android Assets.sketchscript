@@ -8,6 +8,12 @@ var onRun = function(context) {
         document = context.document,
         //prefix = [document askForUserInput:'Enter a prefix (like launcher, menu, dialog, etc):' initialValue:''],
         factors = [
+        		{
+                folder: 'drawable-ldpi',
+                scale: 0.75,
+                //prefix: prefix,
+                suffix: '',
+            },
             {
                 folder: 'drawable-mdpi',
                 scale: 1.0,
